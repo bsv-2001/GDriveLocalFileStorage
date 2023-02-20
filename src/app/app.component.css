@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.head-row{
+    color: #3c4043;
+    font-weight: 500;
+    font-family: 'Roboto',Helvetica,Arial,sans-serif; 
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#folCont{
+    height: auto;
+    min-height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#fileCont{
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+
+}
+.buttonUI{
+    background-color:  #5d5dd9;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 35px;
+    width: 105px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Roboto',Helvetica,Arial,sans-serif; 
+
+}
+
+label{
+    background-color:  #5d5dd9;
+    border: none;
+    border-radius: 5px;
+    padding: 0.6rem;
+    color: #ffffff;
+    width: 90px;
+    font-family: Arial,sans-serif; 
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+
+.row1-txt{
+    color: rgb(95,99,104);
+    font-family: 'Roboto',Helvetica,Arial,sans-serif; 
+    font-weight: 500;
+
+}
+
+#dragArea{
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.active{
+    border: 3px solid #2770d4; 
+    background-color: rgba(0,0,0,0.08);
+    border-radius: 7px;
+}
